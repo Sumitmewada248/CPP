@@ -1,0 +1,18 @@
+
+// similar kinds of data
+//Index starts from 0;
+//Supports contiguse memory allocation
+
+Types of array
+1 numeric array
+a. one dimension
+b. two dimensions 
+c. multidimensional
+
+2. associative array : get the data by key &value(pair)
+
+
+ONE DIMENSION ARRAY:-datatype var[size];
+static array: fix data size
+dynamic array: data needed
+
