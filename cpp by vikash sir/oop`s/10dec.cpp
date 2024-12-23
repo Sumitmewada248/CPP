@@ -1,4 +1,4 @@
-
+  
 /// multiple inheritent
 
 #include<iostream>
@@ -8,7 +8,7 @@ class sbi
 {
     public:sbi()
     {
-      cout<<  "\n sbi Memory allocated \n";
+    cout<<  "\n sbi Memory allocated \n";
     };
     ~sbi(){
     cout<<"\n sbi memory Deallocate \n";
@@ -17,13 +17,12 @@ class sbi
     public:void sbishow()
     {
         cout<<"\n SBI CLASS \n";
-
     };
 };
 
 class axis
 {
-      public:axis()
+    public:axis()
     {
       cout<<  "\n axis Memory allocated \n";
     };

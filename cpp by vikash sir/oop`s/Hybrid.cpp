@@ -2,16 +2,14 @@
 using namespace std;
 
 class rbi
-{
-    public:void rbishow()
+{ public:void rbishow()
     {
         cout<<"\n SBI CLASS \n";
     };
 };
 
 class sbi:public rbi
-{
-    public:void sbishow()
+{public:void sbishow()
     {
         cout<<"\n SBI CLASS \n";
     };
@@ -27,7 +25,7 @@ class axis :public rbi
 
 class customer:public sbi, public axis
 {
-      public:show()
+      public:void show()
     {
       cout<<  "\n customer class \n";
     };

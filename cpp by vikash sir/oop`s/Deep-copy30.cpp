@@ -6,7 +6,7 @@ class top{
     char *x;
     public :top(char *n){
     x=new char[20];
-    strcpy (x,n);
+    strcpy(x,n);
     }
   top(top & ob){
      x=new char[20];
@@ -19,10 +19,6 @@ class top{
   cout<<"Name="<<x<<endl;
   }
 };
-
-
-
-
 
 int main(){
 top t1("Amit");
